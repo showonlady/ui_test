@@ -1,0 +1,46 @@
+{
+  "rwsoda405c1n1": {
+    "nodename": ["rwsoda405c1n1","rwsoda405c1n2"],
+    "ilom": ["rwsoda4051-c", "rwsoda4052-c"],
+    "jbod": 1,
+    "netmask": "255.255.240.0"
+  },
+  "scaoda704c1n1": {
+    "nodename": ["scaoda704c1n1","scaoda704c1n2"],
+    "ilom": ["scaoda7041-c", "scaoda7042-c"],
+    "jbod": 2,
+    "netmask": "255.255.240.0",
+    "vlan": {"vlanid":"135",
+      "vlannetmask": "255.255.255.240",
+      "vlanip": ["10.31.130.36", "10.31.130.37"]
+    }
+  },
+  "scaoda7s005": {
+    "nodename": ["scaoda7s005"],
+    "ilom": ["scaoda7s005-c"],
+    "jbod": 1,
+    "netmask": "255.255.240.0",
+    "vlan": {"vlanid":"132",
+      "vlannetmask": "255.255.255.240",
+      "vlanip": ["10.31.129.245"]
+    }
+  },
+  "rwsoda6m005": {
+    "nodename": ["rwsoda6m005"],
+    "ilom": ["rwsoda6m005-c"],
+    "jbod": 1,
+    "netmask": "255.255.252.0"
+  },
+  "rwsoda6f004": {
+    "nodename": ["rwsoda6f004"],
+    "ilom": ["rwsoda6f004-c"],
+    "jbod": 1,
+    "netmask": "255.255.252.0"
+  },
+  "rwsoda601c1n1": {
+    "nodename": ["rwsoda601c1n1","rwsoda601c1n2"],
+    "ilom": ["rwsoda6011-c", "rwsoda6012-c"],
+    "jbod": 2,
+    "netmask": "255.255.240.0"
+  }
+}
